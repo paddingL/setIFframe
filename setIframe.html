@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<script src="jquery.min.js" type="text/javascript"></script>
+<script src="setIframe.js" type="text/javascript"></script>	
+<script type="text/javascript">
+	$(document).ready(function(){
+		var newSetting={
+            iframeUrl:"https://www.baidu.com/",
+			iframeId:"1",
+			iframeClass:"1",
+			iframeEle:"body"
+		};
+		var newIframe=new getIframe(newSetting);
+	})
+</script>
+</body>
+
+</html>
